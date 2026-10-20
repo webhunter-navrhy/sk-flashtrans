@@ -1,0 +1,133 @@
+{% extends "_base.html" %}
+{% set titulek = 'Sťahovanie a autodoprava Košice – Flashtrans' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="hero-foto">{{ img('vozidla.jpg', 'Biele dodávky a nákladné autá pred skladom', sizes='100vw') }}</div>
+  <div class="wrap hero-text">
+    <p class="stitok">Košice · po celom Slovensku aj EU</p>
+    <h1>Sťahovanie a autodoprava <em>bez starostí</em></h1>
+    <p class="uvod">Stabilná prepravná a sťahovacia spoločnosť z Košíc. Sťahovacie a prepravné služby poskytujeme už viac ako 19 rokov.</p>
+    <p class="akcie"><a class="tlacidlo" href="#kontakt">Nezáväzná objednávka</a> <a class="tlacidlo druhe" href="tel:+421903393221">0903 393 221</a></p>
+  </div>
+</section>
+
+<section class="vyhody" aria-label="Naše výhody">
+  <div class="wrap">
+    <p><strong>Veľké autá, malé ceny</strong></p>
+    <p><strong>Obalový materiál požičiame zadarmo</strong></p>
+    <p><strong>Víkend či sviatok bez príplatku</strong></p>
+  </div>
+</section>
+
+<section class="sekce trasa" id="trasa">
+  <div class="wrap">
+    <h2>Pobočky a pravidelné linky</h2>
+    <p class="perex">Pobočky máme v Bratislave, Nitre, Trenčíne, Poprade a samozrejme v Košiciach. Na trase Košice – Trenčín máme pravidelné linky každý týždeň, voľné kapacity odvezú aj Váš tovar do Michaloviec či Prešova.</p>
+    <ol class="trasa-linka" role="list">
+      <li><span>Košice</span></li><li><span>Poprad</span></li><li><span>Trenčín</span></li><li><span>Nitra</span></li><li><span>Bratislava</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sekce" id="stahovanie">
+  <div class="wrap duo">
+    <div>
+      <h2>Sťahovanie je naša hlavná činnosť</h2>
+      <p class="perex">Pre zákazníkov zostavíme individuálnu cenovú ponuku na základe nášho cenového sadzobníka a cenu upravíme na mieru požadovanej služby.</p>
+      <p>V dohodnutom termíne prídu naši pracovníci, v prípade potreby demontujú nábytok, pozorne zabalia všetky predmety a bezpečne ich uložia do auta. V nových priestoroch nábytok rozložia podľa Vašich predstáv a všetko vybalia. Na konci Vás vedúci pracovník požiada o skontrolovanie sťahovaných predmetov.</p>
+    </div>
+    <figure class="foto-rodina">{{ img('rodina.jpg', 'Pár medzi škatuľami plánuje sťahovanie', sizes='(min-width: 60rem) 40vw, 100vw') }}</figure>
+  </div>
+  <div class="wrap">
+    <ul class="listky" role="list">
+      {% for s in data.sluzby.stahovanie %}<li><h3>{{ s.n }}</h3>{% if s.p %}<p>{{ s.p }}</p>{% endif %}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="doprava">
+  <div class="wrap">
+    <h2>Doprava</h2>
+    <p class="perex">Sťahovanie a prepravu vykonávame dodávkovými vozidlami do 3,5 t s objemom 3 m³ až 30 m³. Menšie vozidlá sa hodia pri obmedzenom parkovaní, pri preprave jednotlivých kusov nábytku alebo pri sťahovaní garsónok a jednoizbových bytov.</p>
+    <div class="mriezka">
+      {% for s in data.sluzby.doprava %}<article><h3>{{ s.n }}</h3>{% if s.p %}<p>{{ s.p }}</p>{% endif %}</article>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="vozidla">
+  <div class="wrap">
+    <h2>Vozový park</h2>
+    <p class="perex">Máme k dispozícii vlastné vozidlá pre všetky druhy činností, ktoré poskytujeme.</p>
+    <div class="vozidla">
+      {% for v in data.sluzby.vozidla %}
+      <article class="vozidlo">
+        <h3>{{ v.n }}</h3>
+        <p class="objem">{{ v.objem }}<small>ložná plocha</small></p>
+        <svg class="vykres" viewBox="0 0 120 50" role="img" aria-label="Schéma ložnej plochy {{ v.n }}" focusable="false"><rect x="2" y="6" width="116" height="38" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 14h116M2 36h116" stroke="currentColor" stroke-width=".6" stroke-dasharray="2 3"/></svg>
+        <dl>
+          <div><dt>Dĺžka</dt><dd>{{ v.d }}</dd></div>
+          <div><dt>Šírka</dt><dd>{{ v.s }}</dd></div>
+          <div><dt>Výška</dt><dd>{{ v.v }}</dd></div>
+          <div><dt>Europalety</dt><dd>{{ v.pal }} ks</dd></div>
+        </dl>
+        {% if v.extra %}<p class="extra">{{ v.extra }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce krem" id="cennik">
+  <div class="wrap">
+    <h2>Cenník</h2>
+    <p class="perex">Ceny sú uvedené s DPH 23 %. Preprava v meste je 0 €/km, maximálne však 10 km. Nad túto hranicu sa účtuje 0,50 €/km cesta tam a späť.</p>
+    <div class="cennik">
+      {% for c in data.sluzby.cennik %}
+      <article>
+        <h3>{{ c.n }}</h3><p class="rozmery">{{ c.r }}</p>
+        <table>
+          <thead><tr><th scope="col">Služba</th><th scope="col">Základ</th><th scope="col">Za hodinu</th></tr></thead>
+          <tbody>{% for r in c.p %}<tr><th scope="row">{{ r[0] }}</th><td>{{ r[1] }}</td><td>+ {{ r[2] }}</td></tr>{% endfor %}</tbody>
+        </table>
+      </article>
+      {% endfor %}
+      <article class="nakladny"><h3>Nákladný voz 30 m³</h3><p>Informácie o cene Vám pošleme na vyžiadanie.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="ostatne">
+  <div class="wrap">
+    <h2>Ostatné služby</h2>
+    <ul class="stitky" role="list">{% for o in data.sluzby.ostatne %}<li>{{ o }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="referencie">
+  <div class="wrap">
+    <h2>Povedali o nás</h2>
+    <div class="ref">
+      {% for r in data.sluzby.referencie %}<blockquote><p>{{ r.t }}</p><footer>{{ r.k }}</footer></blockquote>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap duo">
+    <div>
+      <h2>Kontakt</h2>
+      <address>
+        <strong>FLASHTRANS spol. s r.o.</strong><br>
+        Alejova 2, 040 11 Košice<br>
+        IČO: 36574139 · DIČ: SK2020055697<br>
+        E-mail: <a href="mailto:info@flashtrans.sk">info@flashtrans.sk</a><br>
+        Telefón: <a href="tel:+421903393221">0903 393 221</a><br>
+        <small>Osobné stretnutie je možné po telefonickom dohovore.</small>
+      </address>
+    </div>
+    <div>{% include "_formular.html" %}</div>
+  </div>
+</section>
+{% endblock %}

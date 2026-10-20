@@ -1,0 +1,166 @@
+{
+ "stahovanie": [
+  {
+   "n": "Sťahovanie bytov",
+   "p": "Kompletné presťahovanie nábytku aj osobných vecí. Nábytok chránime dekami a kartónmi, na želanie ho dôkladne zabalíme."
+  },
+  {
+   "n": "Sťahovanie kancelárií",
+   "p": "Najprv Vás navštívi náš pracovník a zistí Vaše predstavy o termíne a spôsobe sťahovania firemných priestorov."
+  },
+  {
+   "n": "Sťahovanie trezorov",
+   "p": ""
+  },
+  {
+   "n": "Sťahovanie klavírov a pianín",
+   "p": ""
+  },
+  {
+   "n": "Sťahovanie ťažkých bremien",
+   "p": ""
+  },
+  {
+   "n": "Montáž nábytku a kuchynských liniek",
+   "p": "V prípade potreby nábytok demontujeme a v novom priestore znovu zložíme podľa Vašich predstáv."
+  }
+ ],
+ "doprava": [
+  {
+   "n": "Vnútroštátna doprava",
+   "p": "Sťahovanie a prepravu po celom Slovensku robíme dodávkovými vozidlami do 3,5 t, objem od 12 do 25 m³, a jedným autom 7,5 t s hydraulickou plošinou (30 m³)."
+  },
+  {
+   "n": "Medzinárodná doprava",
+   "p": "V medzinárodnej doprave pôsobíme už viac ako 17 rokov."
+  },
+  {
+   "n": "Špeciálna doprava",
+   "p": ""
+  },
+  {
+   "n": "Špedičné služby",
+   "p": ""
+  }
+ ],
+ "vozidla": [
+  {
+   "n": "Renault Mascot",
+   "objem": "30 m³",
+   "d": "6 m",
+   "s": "2,1 m",
+   "v": "2,1 m",
+   "pal": "11",
+   "extra": "Max. záťaž 3,2 t"
+  },
+  {
+   "n": "Mitsubishi Fuso",
+   "objem": "26 m³",
+   "d": "5 m",
+   "s": "2,3 m",
+   "v": "2,3 m",
+   "pal": "10",
+   "extra": ""
+  },
+  {
+   "n": "Peugeot Boxer",
+   "objem": "15 m³",
+   "d": "3,5 m",
+   "s": "1,8 m",
+   "v": "1,9 m",
+   "pal": "5",
+   "extra": "Užitočná hmotnosť 1,4 t"
+  },
+  {
+   "n": "Opel Combo",
+   "objem": "3 m³",
+   "d": "1,6 m",
+   "s": "0,9 m",
+   "v": "1,1 m",
+   "pal": "1",
+   "extra": "Užitočná hmotnosť 0,5 t"
+  }
+ ],
+ "cennik": [
+  {
+   "n": "Dodávka 17 m³",
+   "r": "výška 2,1 m · šírka 1,7 m · dĺžka 4,1 m",
+   "p": [
+    [
+     "Vozidlo + vodič",
+     "24,00 €",
+     "5,90 €"
+    ],
+    [
+     "Vozidlo + pracovník",
+     "35,00 €",
+     "9,90 €"
+    ],
+    [
+     "Vozidlo + 2 pracovníci",
+     "50,00 €",
+     "19,80 €"
+    ],
+    [
+     "Vozidlo + 3 pracovníci",
+     "60,00 €",
+     "29,70 €"
+    ]
+   ]
+  },
+  {
+   "n": "Dodávka 20 m³ alebo 24 m³",
+   "r": "výška 2,1 m · šírka 2,25 m · dĺžka 5 m",
+   "p": [
+    [
+     "Vozidlo + vodič",
+     "29,00 €",
+     "5,90 €"
+    ],
+    [
+     "Vozidlo + pracovník",
+     "40,00 €",
+     "9,90 €"
+    ],
+    [
+     "Vozidlo + 2 pracovníci",
+     "55,00 €",
+     "19,80 €"
+    ],
+    [
+     "Vozidlo + 3 pracovníci",
+     "65,00 €",
+     "29,70 €"
+    ]
+   ]
+  }
+ ],
+ "ostatne": [
+  "FLASH kuriér",
+  "Montáž a likvidácia",
+  "Prenájom a predaj obalov",
+  "Preprava stavebného materiálu"
+ ],
+ "referencie": [
+  {
+   "t": "S FLASHTRANS sme boli veľmi spokojní. Všetko prebehlo presne podľa dohody, čo veľmi oceňujeme. Komunikácia bola výborná, ochotne a flexibilne reagovali na naše potreby.",
+   "k": "BLUEMED s.r.o."
+  },
+  {
+   "t": "Potreboval som zmeniť termín dodania tovaru. Bol som milo prekvapený ústretovosťou pani (slečny) na druhom konci. Vyšli mi maximálne v ústrety. Ďakujem.",
+   "k": "Milan D."
+  },
+  {
+   "t": "Maximálna spokojnosť so servisom, flexibilitou aj cenou. Veľmi profesionálny prístup a ústretovosť.",
+   "k": "Marek K."
+  },
+  {
+   "t": "Po zlyhaní inej sťahovacej firmy okamžite boli dostupní.",
+   "k": "Mária D."
+  },
+  {
+   "t": "Absolútna spokojnosť so službami. Milý a ústretový kolektív. Komunikácia s dispečerkou na profesionálnej úrovni.",
+   "k": "Miroslav D."
+  }
+ ]
+}

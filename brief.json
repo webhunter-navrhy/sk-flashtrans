@@ -1,0 +1,186 @@
+{
+ "slug": "sk-flashtrans",
+ "zdroj_url": "https://stahujemesa.sk",
+ "firma": "Flashtrans",
+ "obor": [
+  "stavebnictví a řemesla",
+  "technologie a bezpečnost"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "info@flahstrans.sk"
+  ],
+  "telefony": [
+   "+421 903 393 221"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/Flashtrans"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.stahujemesa.sk/tema/obrazky/logo-stahujemesa-small.png",
+  "rozmery": [
+   239,
+   109
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [],
+  "z_loga": [
+   "#01753a"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#01753a"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://www.stahujemesa.sk/obsah/banner1.jpg",
+   "sirka": 1440,
+   "vyska": 630,
+   "alt": "Auto"
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://www.stahujemesa.sk/obsah/banner2.jpg",
+   "sirka": 1440,
+   "vyska": 630,
+   "alt": "Auto #3"
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://www.stahujemesa.sk/obsah/banner3.jpg",
+   "sirka": 1440,
+   "vyska": 630,
+   "alt": "Obaly"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://www.stahujemesa.sk/obsah/banner4.jpg",
+   "sirka": 1440,
+   "vyska": 630,
+   "alt": "Kalendár"
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Sťahovanie a autodoprava FLASHTRANS spol. s r.o.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Prečo práve naše služby?",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "h2",
+   "text": "Voľné kapacity na trase",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Ostatné služby",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Povedali o nás",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "je stabilnou prepravnou a sťahovacou spoločnosťou z Košíc, ktorá poskytuje sťahovacie a prepravné služby už viac ako 19 rokov po celom Slovensku aj EU .",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Budujeme spoločnosť založenú na dlhoročných skúsenostiach v oblasti sťahovania.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Naše krédo: Vaša maximálna spokojnosť, profesionálny prístup a kvalitnú realizáciu sťahovania, prepravy.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Snažíme sa o Váš komfort, preto robíme všetko, aby sme dodávky resp. sťahovanie mohli realizovať nielen v Košiciach, Prešove, Nitre, Bratislave, Trenčíne či Poprade, ale aj mimo Slovenskej republiky.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sme pripravení nie len prijať Vaše objednávky na prepravu alebo sťahovanie a vybaviť ich k Vašej spokojnosti, ale aj poradiť na základe našich odborných znalostí a skúsenosti.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Lebo zabezpečujeme komplexné sťahovanie, domov, bytov, klavírov, kancelárií, trezorov. V prípade potrieb zabezpečíme montáž nábytku alebo kuchynskej linky.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potrebujete previesť, doviesť tovar, nabýtok či odsťahovať niečo na trase Košice - Trenčín? Poprípade Vám treba niečo doviesť do Michaloviec alebo Prešova? Máme pre Vás pravidelné linky každý týždeň.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "S FLASHTRANS sme boli veľmi spokojní. Všetko prebehlo presne podľa dohody, čo veľmi oceňujeme. Komunikácia bola výborná, ochotne a flexibilne reagovali na naše potreby. Ich služby radi využijeme aj nabudúce.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ústretovosť a profesionalita. Takto očakávam službu. Bez problémov. 👍🏻",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vysoka spokojnost, napriek casovym komplikaciam boli ochotni vyhoviet a najst riesenie.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Potreboval som zmeniť termín dodania tovaru. Bol som milo prekvapený ústretovosťou pani (slečny) na druhom konci. Vyšli mi maximálne v ústrety. Ďakujem.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maximálna spokojnosť so servisom, flexibilitou aj cenou. Veľmi profesionálny prístup a ústretovosť. Ďakujem.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Maximalna spokojnost so sluzbami. 100% spolahnutie. Mily a ochotny personal. Po zlyhani inej stahovacej firmy okamzite boli dostupni.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Veľmi spolahlivý dopravcovia maximalna spokojnost s dopravou aj s vynáškou.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Absolútna spokojnost so službami. Milý a ústretový kolektív. Komunikácia s dispečerkou na profesionálnej úrovni. Firmu odporúčam ďalej.",
+   "zdroj": "https://www.stahujemesa.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Na našej stránke používame \"cookies\". Vďaka nim sledujeme návštevnosť, prispôsobujeme reklamu a používateľské nastavenia, čo zlepšuje Váš zážitok z našej stránky. Súhlasíte s ich spracovaním? Vlastné nastavenia cookies",
+   "zdroj": "https://www.stahujemesa.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 4, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "FLASHTRANS spol. s r.o. je prepravná spoločnosť, poskytujúca komplexné služby v oblasti sťahovania, autodopravy a medzinárodnej dopravy."
+}

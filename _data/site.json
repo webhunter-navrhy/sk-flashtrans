@@ -1,0 +1,57 @@
+{
+  "slug": "sk-flashtrans",
+  "nazev": "Flashtrans",
+  "url": "https://webhunter-navrhy.github.io/sk-flashtrans/",
+  "base": "/sk-flashtrans/",
+  "lang": "sk",
+  "popis": "Sťahovanie a autodoprava z Košíc po celom Slovensku aj EU. Sťahovanie bytov, kancelárií, klavírov a trezorov, vozový park, cenník.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "vozidla.jpg",
+  "logo": "logo.png",
+  "theme_color": "#01753a",
+  "typ": "MovingCompany",
+  "ico": "36574139",
+  "kontakt": {
+    "email": "info@flashtrans.sk",
+    "telefon": "+421 903 393 221",
+    "adresa": {
+      "ulice": "Alejova 2",
+      "psc": "040 11",
+      "mesto": "Košice",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [
+    "https://www.facebook.com/Flashtrans"
+  ],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Nezáväzná objednávka z webu"
+  },
+  "nav": [
+    {
+      "text": "Sťahovanie",
+      "href": "#stahovanie"
+    },
+    {
+      "text": "Doprava",
+      "href": "#doprava"
+    },
+    {
+      "text": "Vozový park",
+      "href": "#vozidla"
+    },
+    {
+      "text": "Cenník",
+      "href": "#cennik"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}
