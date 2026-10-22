@@ -121,3 +121,16 @@ td,.cena,[class*=cena]{white-space:nowrap}
 .dalsie+.stitky{margin-top:.6rem}
 .stitky.svetle{margin-top:1.5rem}.stitky.svetle li{border-color:var(--zluta);color:var(--zluta)}
 .pas{margin:2rem 0 0}.pas img{width:100%;height:clamp(11rem,28vw,20rem);object-fit:cover;border-bottom:8px solid var(--zluta)}
+
+ol.trasa-linka[role=list]{padding-left:0}
+.zavolat{display:none}
+.cennik th[scope=row]{white-space:nowrap}
+.cennik .nakladny{align-self:start}
+@media(max-width:40rem){
+ol.trasa-linka[role=list]{padding-left:2.2rem}
+.hlavicka nav{display:none}
+.hlavicka .wrap{flex-wrap:nowrap}
+.zavolat{display:inline-block;background:var(--zluta);color:#1b1b00;font-weight:600;text-decoration:none;padding:.7rem 1.1rem;min-height:44px;box-sizing:border-box}
+.logo{font-size:1.5rem}
+.cennik th[scope=row]{white-space:normal}
+}

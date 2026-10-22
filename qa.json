@@ -1,9 +1,8 @@
 {
-  "url": "http://localhost:8791/sk-flashtrans/",
+  "url": "https://webhunter-navrhy.github.io/sk-flashtrans/",
   "ok": true,
   "chyby": [],
   "varovani": [
-    "Web má noindex (u ostrého webu pravděpodobně chyba)",
     "Dotykové cíle <40 px na mobilu: 3× (např. a.skip \"Preskočiť na obsah\" 132×25; a \"info@flashtrans.sk\" 131×19; a \"+421 903 393 221\" 114×19)"
   ],
   "metriky": {
@@ -33,16 +32,16 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.23,
+    "preneseno_PC_MB": 0.3,
     "nejvetsi_obrazek_PC": {
-      "kB": 87,
-      "url": "http://localhost:8791/sk-flashtrans/img/vozidla-1440.webp"
+      "kB": 93,
+      "url": "https://webhunter-navrhy.github.io/sk-flashtrans/img/obaly-1440.webp"
     },
-    "snimku_PC": 7,
-    "preneseno_mobil_MB": 0.27,
+    "snimku_PC": 8,
+    "preneseno_mobil_MB": 0.32,
     "nejvetsi_obrazek_mobil": {
       "kB": 83,
-      "url": "http://localhost:8791/sk-flashtrans/img/rodina-1280.webp"
+      "url": "https://webhunter-navrhy.github.io/sk-flashtrans/img/rodina-1280.webp"
     },
     "snimku_mobil": 10,
     "seo": {
@@ -64,7 +63,7 @@
     "font_text": "Barlow",
     "podstranky": {
       "stranek": 1,
-      "obrazku": 7
+      "obrazku": 10
     }
   }
 }

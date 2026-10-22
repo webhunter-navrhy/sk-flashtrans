@@ -28,6 +28,7 @@
     <nav aria-label="Hlavná ponuka">
       {% for n in site.nav %}<a href="{{ n.href if n.href.startswith(('#', 'http', 'tel:', 'mailto:')) else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
+    <a class="zavolat" href="tel:+421903393221">Zavolať</a>
   </div>
 </header>
 <main id="obsah">
