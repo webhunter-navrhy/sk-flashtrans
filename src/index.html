@@ -41,8 +41,10 @@
   </div>
   <div class="wrap">
     <ul class="listky" role="list">
-      {% for s in data.sluzby.stahovanie %}<li><h3>{{ s.n }}</h3>{% if s.p %}<p>{{ s.p }}</p>{% endif %}</li>{% endfor %}
+      {% for s in data.sluzby.stahovanie if s.p %}<li><h3>{{ s.n }}</h3><p>{{ s.p }}</p></li>{% endfor %}
     </ul>
+    <p class="dalsie">Ďalej zvládneme:</p>
+    <ul class="stitky" role="list">{% for s in data.sluzby.stahovanie if not s.p %}<li>{{ s.n }}</li>{% endfor %}</ul>
   </div>
 </section>
 
@@ -51,8 +53,10 @@
     <h2>Doprava</h2>
     <p class="perex">Sťahovanie a prepravu vykonávame dodávkovými vozidlami do 3,5 t s objemom 3 m³ až 30 m³. Menšie vozidlá sa hodia pri obmedzenom parkovaní, pri preprave jednotlivých kusov nábytku alebo pri sťahovaní garsónok a jednoizbových bytov.</p>
     <div class="mriezka">
-      {% for s in data.sluzby.doprava %}<article><h3>{{ s.n }}</h3>{% if s.p %}<p>{{ s.p }}</p>{% endif %}</article>{% endfor %}
+      {% for s in data.sluzby.doprava if s.p %}<article><h3>{{ s.n }}</h3><p>{{ s.p }}</p></article>{% endfor %}
     </div>
+    <ul class="stitky svetle" role="list">{% for s in data.sluzby.doprava if not s.p %}<li>{{ s.n }}</li>{% endfor %}</ul>
+    <figure class="pas">{{ img('obaly.jpg', 'Sťahovacie škatule a baliaci materiál', sizes='100vw') }}</figure>
   </div>
 </section>
 
@@ -65,7 +69,6 @@
       <article class="vozidlo">
         <h3>{{ v.n }}</h3>
         <p class="objem">{{ v.objem }}<small>ložná plocha</small></p>
-        <svg class="vykres" viewBox="0 0 120 50" role="img" aria-label="Schéma ložnej plochy {{ v.n }}" focusable="false"><rect x="2" y="6" width="116" height="38" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 14h116M2 36h116" stroke="currentColor" stroke-width=".6" stroke-dasharray="2 3"/></svg>
         <dl>
           <div><dt>Dĺžka</dt><dd>{{ v.d }}</dd></div>
           <div><dt>Šírka</dt><dd>{{ v.s }}</dd></div>

@@ -1,0 +1,21 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Sekce Sťahovanie (PC buňka 3) a Doprava (PC buňka 4, mobil buňka 5): karty Sťahovanie trezorov, Sťahovanie klavírov a pianín, Sťahovanie ťažkých bremien, Špeciálna doprava a Špedičné služby mají jen nadpis a pod ním prázdnou bílou nebo zelenou plochu. Doplnit ke každé kartě 1–2 věty z webu stahujemesa.sk (podstránky služeb). Když text není, karty sloučit do jednoho řádku štítků jako v Ostatné služby, ať v mřížce nejsou díry.",
+    "Celý web stojí na dvou fotkách (dodávky v hero, pár s krabicemi) a dál jsou jen rámečky a tabulky. Barlow Condensed ve verzálkách se zelenými a žlutými pruhy je stejná šablona, kterou Rafael odmítl u Engadinu. Do Vozového parku dát skutečné fotky aut klienta (banner1/banner2 z briefu, Facebook Flashtrans) místo prázdných obdélníčků. Pod Doprava přidat velký fotopás (obaly, auto s plošinou) přes celou šířku, ať web nese obraz firmy, ne kostru tabulek.",
+    "Mobil 390 px, Pobočky a pravidelné linky (mobil buňky 1–2): svislá trasa má tečky i čárkovanou čáru useknuté levým okrajem obrazovky a čára jde přes písmena KOŠICE/POPRAD. Posunout osu trasy dovnitř (padding-left ~28 px, tečka vlevo od textu s odsazením) a na mobilu dát města do 2 sloupců s viditelnou trasou. Současně zmenšit mobilní hlavičku: logo a menu na dva řádky zabírají ~100 px, menu dát do hamburgeru a nechat tlačítko Zavolať."
+  ],
+  "zavazne": [
+    "Vozový park (PC buňka 4, mobil buňky 5–7): v každé kartě auta je prázdný obdélník s čárkovaným rámem místo obrázku vozidla. Vypadá to jako nenačtená fotka nebo placeholder, odstranit nebo nahradit skutečnou fotkou.",
+    "Sekce Sťahovanie a Doprava: 5 karet služeb bez textu (trezory, klavíry, ťažké bremená, špeciálna doprava, špedičné služby). Jsou to prázdné sekce, které Rafael opakovaně odmítl.",
+    "Mobil, trasa Pobočky (mobil buňky 1–2): tečky trasy jsou oříznuté levým okrajem viewportu a čára přetíná text měst. Rozbitý layout prvku na mobilu."
+  ],
+  "silne": [
+    "Logo klienta (zelené auto + FLASHTRANS) je vlevo v hlavičce a zelená #01753a z loga nese celou paletu, brand je poznat hned.",
+    "Silná konverze: v hero je Nezáväzná objednávka i telefon, ceník s reálnými tarify je přehledný, kontakt má adresu, IČO a formulář.",
+    "Recenze jsou převzaté z původního webu, nic vymyšleného na první pohled. Nápad s trasou Košice–Bratislava vychází z oboru.",
+    "QA čistá: bez přetečení na 6 šířkách, 0,23 MB na PC."
+  ],
+  "verdikt": "Opravit: brand a obsah sedí, ale prázdné karty služeb, placeholdery místo fotek aut a useknutá trasa na mobilu se klientovi poslat nedají. Celkově je to tabulková šablona bez fotek, potřebuje víc obrazu firmy. Ověřit i původ jmen u recenzí, adresy a IČO, protože v briefu nejsou (IČO a adresa jsou tam v poli „chybí“).",
+  "_hash": "38012334f9805644c83c4fbd580ce6ec4c6c39aa"
+}
